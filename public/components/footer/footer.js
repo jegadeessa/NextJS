@@ -48,7 +48,7 @@ export default function Footer() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/jegadees-rajapandian-4b4165150/"
+              href="https://www.facebook.com/profile.php?id=100011780024538"
             >
               {" "}
               <Image

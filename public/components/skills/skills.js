@@ -2,8 +2,6 @@ import Image from "next/image";
 
 import styles from "../../../styles/skills.module.scss";
 
-import githubLogo from "../../assets/images/github.svg";
-
 export default function Skills({ skills }) {
   return (
     <div
@@ -18,9 +16,11 @@ export default function Skills({ skills }) {
           return (
             <div className={styles.skillsWrap__details__card} key={index}>
               <Image
-                src={githubLogo}
-                width={48}
-                height={48}
+                src={`/assets/images/skills/${
+                  skill.split(" ")[0].toLowerCase() || "sass"
+                }.png`}
+                width={36}
+                height={36}
                 alt="Skill"
                 className={styles.skillsWrap__details__logo}
               ></Image>

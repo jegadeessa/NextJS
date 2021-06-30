@@ -1,27 +1,27 @@
-.skillsWrap {
+.projectsWrap {
   padding: 48px;
   box-sizing: border-box;
   background: rgba(40, 108, 226, 0.7);
   margin-bottom: 36px;
-  .skillsWrap__title {
+  .projectsWrap__title {
     font-size: 1.6875rem;
     margin: 0 0 16px;
     text-align: center;
     width: 100%;
     color: #ffffff;
   }
-  .skillsWrap__details {
+  .projectsWrap__details {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    .skillsWrap__details__card {
+    .projectsWrap__details__card {
       display: flex;
       align-items: center;
       color: #ffffff;
       font-size: 16px;
-      width: 25%;
+      width: 33%;
       margin-top: 10px;
-      .skillsWrap__details__logo {
+      .projectsWrap__details__logo {
         mix-blend-mode: multiply;
       }
       span {
@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .skillsWrap__details__card {
-    width: 50% !important;
+  .projectsWrap__details__card {
+    width: 100% !important;
   }
 }

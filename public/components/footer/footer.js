@@ -6,7 +6,7 @@ import facebookLogo from "../../assets/images/facebook.svg";
 import linkedInLogo from "../../assets/images/linkedin.svg";
 import gitHubLogo from "../../assets/images/github.svg";
 
-export default function Footer() {
+export default function Footer({ data }) {
   return (
     <footer>
       <div className={styles.footerWrap}>
@@ -17,7 +17,7 @@ export default function Footer() {
               Phone No:
             </span>
             <span className={styles.footerWrap__contactSec__details__value}>
-              +91-9629901123
+              {data.phoneNo}
             </span>
           </div>
           <div className={styles.footerWrap__contactSec__details}>
@@ -25,7 +25,7 @@ export default function Footer() {
               Email:
             </span>
             <span className={styles.footerWrap__contactSec__details__value}>
-              jegadeessa007@gmail.com
+              {data.email}
             </span>
           </div>
         </div>

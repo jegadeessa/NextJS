@@ -1,40 +1,9 @@
 .timelineWrap {
-  margin-top: 36px;
+  margin: 36px 0;
   .timelineWrap__title {
     font-size: 1.6875rem;
     margin: 0;
     text-align: center;
-  }
-  .timelineWrap__details {
-    display: flex;
-    padding: 48px;
-    box-sizing: border-box;
-    .timelineWrap__details__card {
-      border-radius: 8px;
-      box-shadow: 0 2px 11px 0 rgb(62 62 62 / 18%);
-      width: calc(33.33% - 24px);
-      box-sizing: border-box;
-      padding: 24px;
-      margin: 0 24px 24px 0;
-      h3 {
-        margin: 0;
-        font-size: 1.5rem;
-        color: #000000;
-      }
-      span {
-        color: #000000;
-        margin-top: 16px;
-        display: block;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .timelineWrap__details {
-    flex-direction: column;
-    .timelineWrap__details__card {
-      width: 100% !important;
-    }
+    width: 100%;
   }
 }

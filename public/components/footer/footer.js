@@ -9,7 +9,12 @@ import gitHubLogo from "../../assets/images/github.svg";
 export default function Footer({ data }) {
   return (
     <footer>
-      <div className={styles.footerWrap}>
+      <div
+        className={styles.footerWrap}
+        data-aos="fade-in"
+        data-aos-easing="ease-in-cubic"
+        data-aos-duration="2000"
+      >
         <div className={styles.footerWrap__contactSec}>
           <h1 className={styles.footerWrap__title}>Contact me</h1>
           <div className={styles.footerWrap__contactSec__details}>

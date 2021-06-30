@@ -15,7 +15,12 @@ import Styles from "../../../styles/timeline.module.scss";
 
 export default function CustomizedTimeline({ timeline }) {
   return (
-    <div className={Styles.timelineWrap}>
+    <div
+      className={Styles.timelineWrap}
+      data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <h3 className={Styles.timelineWrap__title}>Timeline</h3>
       <Timeline align="alternate">
         {timeline.map((timelineData, index) => {

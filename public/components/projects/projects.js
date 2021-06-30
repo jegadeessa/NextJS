@@ -6,7 +6,12 @@ import githubLogo from "../../assets/images/github.svg";
 
 export default function Projects({ projects }) {
   return (
-    <div className={styles.skillsWrap}>
+    <div
+      className={styles.skillsWrap}
+      data-aos="fade-right"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <h3 className={styles.skillsWrap__title}>Projects</h3>
       <div className={styles.skillsWrap__details}>
         {projects.map((project, index) => {
